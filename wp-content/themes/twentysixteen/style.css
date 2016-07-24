@@ -3376,7 +3376,9 @@ p > video {
 	}
 
 	.site-header {
-		padding: 5.25em 4.5455%;
+		padding: 2.25em 4.5455%;
+		background-color: grey;
+		margin-bottom: 15px;
 	}
 
 	.site-branding,
@@ -3516,7 +3518,7 @@ p > video {
 
 	body:not(.search-results) article:not(.type-page) .entry-content {
 		float: right;
-		width: 71.42857144%;
+		width: 100%;
 	}
 
 	body:not(.search-results) article:not(.type-page) .entry-content > blockquote.alignleft.below-entry-meta {
@@ -3544,7 +3546,7 @@ p > video {
 
 	body:not(.search-results) article:not(.type-page) .entry-footer {
 		float: left;
-		margin-top: 0.1538461538em;
+		margin-top: 3.153846em;
 		width: 21.42857143%;
 	}
 
@@ -3561,8 +3563,9 @@ p > video {
 	body:not(.search-results) article:not(.sticky) .posted-on,
 	body:not(.search-results) article:not(.type-page) .comments-link,
 	body:not(.search-results) article:not(.type-page) .entry-footer .edit-link {
-		display: block;
+		display: -webkit-inline-box;
 		margin-bottom: 0.5384615385em;
+		background-color: grey;
 	}
 
 	body:not(.search-results) article:not(.type-page) .entry-footer > span:last-child {
@@ -3951,3 +3954,8 @@ p > video {
 		padding: 0;
 	}
 }
+
+
+/*.entry-footer { display: none; }*/
+/*.entry-permalink { display: none; }
+.entry-date { display: none; }*/
