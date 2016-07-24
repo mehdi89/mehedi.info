@@ -35,9 +35,7 @@
 			}
 		?>
 	</div><!-- .entry-content -->
-	<br>
-	<br>
-	<footer class="entry-footer">
+	<footer class="entry-footer" style="margin-top: 3.153846em;">
 		<?php twentysixteen_entry_meta(); ?>
 		<?php
 			edit_post_link(
