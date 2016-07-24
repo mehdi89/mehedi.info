@@ -3377,7 +3377,7 @@ p > video {
 
 	.site-header {
 		padding: 2.25em 4.5455%;
-		background-color: grey;
+		background-color: rgba(98, 81, 81, 0.14);
 		margin-bottom: 15px;
 	}
 
@@ -3409,7 +3409,7 @@ p > video {
 	}
 
 	.site-main > article {
-		margin-bottom: 7.0em;
+		margin-bottom: 4.0em;
 	}
 
 	.entry-title {
@@ -3565,7 +3565,10 @@ p > video {
 	body:not(.search-results) article:not(.type-page) .entry-footer .edit-link {
 		display: -webkit-inline-box;
 		margin-bottom: 0.5384615385em;
-		background-color: grey;
+		background-color: rgba(128, 128, 128, 0);
+		border: 1px;
+		border-color: black;
+		border-style: dotted;
 	}
 
 	body:not(.search-results) article:not(.type-page) .entry-footer > span:last-child {
